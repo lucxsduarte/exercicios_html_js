@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formdetran.css">
+    <title>Requerimento CNH</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Requerimento CNH</b></legend>
+                <br>
+                <div class="inputBox">
+                    <label for="nome" class="labelNome">Nome</label>
+                    <input type="text" name="nome" id="nome" class="inputNome" required>
+                    <br><br>
+                    <label for="nomeMae" class="labelNome">Nome Mãe</label>
+                    <input type="text" name="nomeMae" id="nomeMae" class="inputNomeMae" required>
+                    <br><br>
+                    <label for="nomePai" class="labelNome">Nome Pai</label>
+                    <input type="text" name="nomePai" id="nomePai" class="inputNomePai" required>
+                </div>
+                <br>
+                <div class="idBox">
+                    <select name="identidade" id="identidade">
+                        <option value="ident" selected>Carteira de Identidade</option>
+                        <option value="trab">Carteira de Trabalho</option>
+                        <option value="passap">Passaporte</option>
+                    </select>
+                    <input type="text" name="numeroId" id="numeroId" class="numeroId" required>
+                </div>
+                <br>
+                <div class="orgEmissor">
+                    <label for="">Orgão Emissor</label>
+                    <input type="text" name="orgEm" id="orgEm" class="orgEm" required>
+                    <label for="">UF</label>
+                    <select name="uf" id="uf" required>
+                        <option value="none"></option>
+                        <option value="sc">SC</option>
+                        <option value="sp">SP</option>
+                        <option value="rj">RJ</option>
+                        <option value="rs">RS</option>
+                    </select>
+                </div>
+                <button type="submit">Requerimento CNH</button>
+                    
+                
+            
+            </fieldset>
+        </form>
+    </div>
+
+
+
+</body>
+</html>

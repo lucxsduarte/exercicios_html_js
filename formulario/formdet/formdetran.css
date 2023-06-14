@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(172, 171, 171);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+fieldset {
+    width: 50vw;
+}
